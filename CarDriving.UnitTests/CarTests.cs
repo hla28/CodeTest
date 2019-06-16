@@ -12,8 +12,11 @@ namespace CarDriving.UnitTests
         // (1) Is orientation only clockwise? I assume Yes.
         // (2) What many orientation the car can change once at a time? E->S or E->S->W I assume one step at a time
 
+        // If you are using VisualStudio and somehow the tests do not run
+        // (1) [Right click test project] -> properties -> Build -> Platform target - e.g. x64
+        // (2) [Main Menu] -> Test -> Test Settings -> Default Processor Architecture -> X64
 
-        #region Acceptance Criteria
+
         // Given the Car is in position X = 1 and Y = 1 and facing North, 
         // when the Car turns clockwise, 
         // then the Car is still in the same position but is now facing East
@@ -105,6 +108,6 @@ namespace CarDriving.UnitTests
             Assert.AreEqual(car.GetPositionY(), 1);
             Assert.AreEqual(car.GetOrientation(), "East");
         }
-        #endregion
+      
     }
 }
