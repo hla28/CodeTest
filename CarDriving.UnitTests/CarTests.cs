@@ -10,7 +10,7 @@ namespace CarDriving.UnitTests
     {
         // There are two pieces of info are not clarified. 
         // (1) Is orientation only clockwise? I assume Yes.
-        // (2) What many orientation the car can change once at a time? E->S or E->S->W I assume one step at a time
+        // (2) How many orientation the car can change once at a time? E->S or E->S->W I assume one step at a time
 
         // If you are using VisualStudio and somehow the tests do not run
         // (1) [Right click test project] -> properties -> Build -> Platform target - e.g. x64
