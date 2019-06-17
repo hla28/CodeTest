@@ -1,12 +1,4 @@
-﻿using CarDriving.Operations.Car;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using static CarDriving.Operations.Core.Enums.Orientation;
-
-namespace CarDriving
+﻿namespace CarDriving
 {
     class Program
     {
